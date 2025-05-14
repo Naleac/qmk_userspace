@@ -10,7 +10,7 @@ jobs:
     name: 'QMK Userspace Build'
     uses: qmk/.github/.github/workflows/qmk_userspace_build.yml@main
     with:
-      qmk_repo: Naleac/TractylRepo
+      qmk_repo: Naleac/qmk_firmware
       qmk_ref: master
     # Uncomment for default behaviour
     # with:
